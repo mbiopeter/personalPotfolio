@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { logo } from "../../assets/index"
+import { logo } from "../../assets/index";
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false)
+    const [showMenu, setShowMenu] = useState(false);
+
     return (
         <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
             <div className="flex flex-row gap-[10px] items-center">
@@ -46,9 +47,7 @@ const Navbar = () => {
                             <div>
                                 <img className="w-32" src={logo} alt="logo" />
                                 <p className="text-sm text-gray-400 mt-2">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Earum soluta perspiciatis molestias enim cum repellat, magnam
-                                    exercitationem distinctio aliquid nam.
+                                    Welcome! I am passionate about building responsive web applications and crafting seamless user experiences.
                                 </p>
                             </div>
                             <ul className="flex flex-col gap-4">
@@ -73,18 +72,18 @@ const Navbar = () => {
                             </ul>
                             <div className="flex flex-col gap-4">
                                 <h2 className="text-base uppercase font-titleFont mb-4">
-                                    Find me in
+                                    Find me on
                                 </h2>
                                 <div className="flex gap-4">
-                                    <span className="bannerIcon">
+                                    <a href="https://www.facebook.com/profile.php?id=100091002275594" target="_blank" rel="noopener noreferrer" className="bannerIcon">
                                         <FaFacebookF />
-                                    </span>
-                                    <span className="bannerIcon">
+                                    </a>
+                                    <a href="https://x.com/PeterM60104" target="_blank" rel="noopener noreferrer" className="bannerIcon">
                                         <FaTwitter />
-                                    </span>
-                                    <span className="bannerIcon">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/peter-mberere-4709b72bb/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
                                         <FaLinkedinIn />
-                                    </span>
+                                    </a>
                                 </div>
                             </div>
                             <span
@@ -101,4 +100,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar
+export default Navbar;
