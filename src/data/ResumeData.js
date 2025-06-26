@@ -1,143 +1,145 @@
-
 export const resumeData = [
     {
         id: 1,
         title: 'BSc in Software Engineering',
-        subtitle: 'University of DVI (2006 - 2010)',
-        results: '3.90/4',
-        des: 'The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.'
+        subtitle: 'Kirinyaga University (2021 - 2025)',
+        results: 'Expected',
+        des: 'Studied core computer science principles and software development techniques, focusing on designing, developing, and deploying scalable software systems.'
     },
     {
         id: 2,
-        title: 'AS - Science & Information',
-        subtitle: 'SuperKing College (2001 - 2005)',
-        results: '4.75/5',
-        des: 'Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.'
+        title: 'Kenya Certificate of Secondary Education (KCSE)',
+        subtitle: 'Arnesens High School (2017 - 2020)',
+        results: 'Mean Grade: B',
+        des: 'Completed secondary school education with strong performance in sciences and mathematics, laying a strong foundation for a career in technology.'
     },
     {
         id: 3,
-        title: 'Secondary School Education',
-        subtitle: 'Kingstar Secondary School (1998 - 2000)',
-        results: '5.00/5',
-        des: 'Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale.'
+        title: 'Kenya Certificate of Primary Education (KCPE)',
+        subtitle: 'Mosop Vision Academy (2008 - 2016)',
+        results: '317 Marks',
+        des: 'Acquired foundational education and skills that enabled academic and personal growth through primary education.'
     },
 ]
+
 export const experienceData = [
     {
         id: 1,
-        title: 'Sr. Software Engineer',
-        subtitle: 'Google Out Tech - (2017 - Present)',
-        results: 'USA',
-        des: "Google's hiring process is an important part of our culture.Googlers care deeply about their teams and the people who make them up."
+        title: 'Front End Developer',
+        subtitle: 'Tekobliss (Nov 2024 - Present)',
+        results: 'USA (Remote)',
+        des: 'Developing responsive web and mobile applications using React.js and React Native, integrating RESTful APIs, and optimizing performance across devices.'
     },
     {
         id: 2,
-        title: 'Web Developer & Trainer',
-        subtitle: 'Apple Developer Team - (2012 - 2016)',
-        results: 'MALAYSIA',
-        des: "A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+        title: 'Software Engineer',
+        subtitle: 'Aligner (Jan 2024 - Nov 2024)',
+        results: 'Remote',
+        des: 'Contributed to AI labeling processes by annotating datasets, refining labeling workflows, and ensuring data quality for machine learning models.'
     },
     {
         id: 3,
-        title: 'Front-end Developer',
-        subtitle: 'Nike - (2020 - 2011)',
-        results: 'Oman',
-        des: 'The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy.'
+        title: 'Junior Software Developer',
+        subtitle: 'Masyopnet Technology, Kitui (Jan 2024 - Aug 2024)',
+        results: 'KENYA',
+        des: 'Developed multiple systems including an e-commerce app, a hospital management system, and integrated M-Pesa payment solutions.'
     },
 ]
+
 export const jobData = [
     {
         id: 1,
-        title: 'Sr. Software Engineer',
-        subtitle: 'Google Out Tech - (2017 - Present)',
-        results: 'USA',
-        des: "Google's hiring process is an important part of our culture.Googlers care deeply about their teams and the people who make them up."
+        title: 'Front End Developer',
+        subtitle: 'Tekobliss (Nov 2024 - Present)',
+        results: 'USA (Remote)',
+        des: 'Built and optimized cross-platform user interfaces using React technologies and collaborated in Agile teams for timely product delivery.'
     },
     {
         id: 2,
-        title: 'Web Developer & Trainer',
-        subtitle: 'Apple Developer Team - (2012 - 2016)',
-        results: 'MALAYSIA',
-        des: "A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+        title: 'Web Developer',
+        subtitle: 'Qet Systems, Thika (Jan 2023 - Dec 2023)',
+        results: 'KENYA',
+        des: 'Designed, developed, and maintained client-focused web applications with responsive design and enhanced user experience.'
     },
     {
         id: 3,
-        title: 'Front-end Developer',
-        subtitle: 'Nike - (2020 - 2011)',
-        results: 'Oman',
-        des: 'The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy.'
+        title: 'Software Developer',
+        subtitle: 'Masyopnet Technology, Kitui (Jan 2024 - Aug 2024)',
+        results: 'KENYA',
+        des: 'Created software solutions including e-commerce and medical systems, with secure payment and interactive features.'
     },
 ]
+
 export const TrainerData = [
     {
         id: 1,
-        title: 'Gym Instructor',
-        subtitle: 'Rainbow Gym Center (2015 - 2020)',
-        results: 'DHAKA',
-        des: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+        title: 'Tech Mentor & Peer Support',
+        subtitle: 'Kirinyaga University (2023 - Present)',
+        results: 'KENYA',
+        des: "Provided informal mentoring and technical guidance to fellow students in programming, debugging, and software development best practices."
     },
     {
         id: 2,
-        title: 'Web Developer and Instructor',
-        subtitle: 'SuperKing College (2010 - 2014)',
-        results: 'CANADA',
-        des: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+        title: 'Web Development Tutor (Freelance)',
+        subtitle: 'Self-Initiated Projects (2022 - 2024)',
+        results: 'Remote',
+        des: "Volunteered as a part-time tutor, helping beginners understand HTML, CSS, JavaScript, and React through online sessions and community forums."
     },
     {
         id: 3,
-        title: 'School Teacher',
-        subtitle: 'Kingstar Secondary School (2001 - 2010)',
-        results: 'NEVADA',
-        des: 'Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale.'
+        title: 'Peer Coding Assistant',
+        subtitle: 'Qet Systems Collaboration (2023)',
+        results: 'Thika, Kenya',
+        des: "Assisted junior interns and interns with code review and debugging, while working on collaborative web development projects."
     },
 ];
 export const CompanyExperienceData = [
     {
         id: 1,
-        title: 'Innovative Solutions for Modern Problems',
-        subtitle: 'Transforming challenges into opportunities.',
+        title: 'Building Efficient Applications',
+        subtitle: 'Leveraging modern tools for real-world solutions.',
         results: 'Success',
-        des: "We delivered innovative solutions that significantly enhanced operational efficiency and drove growth for our clients. Our approach focuses on understanding client needs and providing tailored strategies."
+        des: 'Designed and deployed multiple user-centric applications, focusing on performance, accessibility, and scalability.'
     },
     {
         id: 2,
-        title: 'Boosting Client Engagement',
-        subtitle: 'Enhancing user experience and satisfaction.',
+        title: 'Cross-functional Teamwork',
+        subtitle: 'Agile collaboration for faster delivery.',
         results: 'Success',
-        des: "Our team implemented strategies that increased client engagement by over 30%. By leveraging data analytics and customer feedback, we created experiences that resonate with users."
+        des: 'Worked within Agile environments, collaborating with backend developers, designers, and QA to meet tight deadlines and client goals.'
     },
     {
         id: 3,
-        title: 'Driving Revenue Growth',
-        subtitle: 'Maximizing profitability through strategic planning.',
+        title: 'Data-Driven Decisions',
+        subtitle: 'Powering applications with smart data flows.',
         results: 'Success',
-        des: "Through meticulous planning and execution, we helped businesses achieve a remarkable increase in revenue. Our focus on aligning business objectives with market demands played a crucial role in this success."
+        des: 'Implemented dynamic data handling via API integrations and refined performance using analytics and structured feedback.'
     },
-];
+]
 
 export const JobExperienceData = [
     {
         id: 1,
-        title: 'Software Developer',
-        subtitle: 'Building scalable applications.',
+        title: 'Front End Developer',
+        subtitle: 'Delivering high-quality UI experiences.',
         results: 'Success',
-        des: "As a software developer, I contributed to several successful projects, developing applications that are both user-friendly and efficient. My role involved collaborating with cross-functional teams to deliver high-quality software."
+        des: 'Specialized in React-based front-end development for both web and mobile platforms, enhancing usability and interface consistency.'
     },
     {
         id: 2,
-        title: 'Project Manager',
-        subtitle: 'Leading teams to success.',
+        title: 'Software Engineer (AI Labeling)',
+        subtitle: 'Supporting machine learning pipelines.',
         results: 'Success',
-        des: "I managed diverse teams to ensure project deliverables were met on time and within budget. My leadership style focuses on fostering collaboration and innovation among team members."
+        des: 'Helped train AI models by annotating datasets and ensuring data accuracy for improved algorithm performance.'
     },
     {
         id: 3,
-        title: 'Data Analyst',
-        subtitle: 'Transforming data into actionable insights.',
+        title: 'Junior Developer',
+        subtitle: 'Building impactful software solutions.',
         results: 'Success',
-        des: "In my role as a data analyst, I interpreted complex datasets to guide business strategies. My analytical skills helped the team make informed decisions that positively impacted the company's bottom line."
+        des: 'Developed software systems with real-world applications including medical, music, and commerce platforms.'
     },
-];
+]
 
 export const designSkills = [
     {
@@ -170,27 +172,27 @@ export const designSkills = [
 export const developmentSkills = [
     {
         id: 1,
-        percentage: 100,
+        percentage: 95,
         name: 'REACT'
     },
     {
         id: 2,
-        percentage: 95,
-        name: 'HTML 5'
-    },
-    {
-        id: 1,
-        percentage: 80,
-        name: 'CSS3'
-    },
-    {
-        id: 1,
         percentage: 90,
-        name: 'SOFTWARE'
+        name: 'HTML5 / CSS3 / TAILWIND'
     },
     {
-        id: 1,
-        percentage: 95,
-        name: 'DESIGN'
+        id: 3,
+        percentage: 85,
+        name: 'JAVASCRIPT'
+    },
+    {
+        id: 4,
+        percentage: 80,
+        name: 'PYTHON'
+    },
+    {
+        id: 5,
+        percentage: 75,
+        name: 'DJANGO / NODE.JS'
     },
 ]
