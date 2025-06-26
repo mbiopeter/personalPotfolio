@@ -12,7 +12,7 @@ const Achievements = () => {
         >
             <div className="w-full lg:w-1/2">
                 <div className="py-12 font-titleFont">
-                    <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+                    <p className="text-sm text-designColor tracking-[4px]">2022 - present</p>
                     <h2 className="text-4xl font-bold">Company Experience</h2>
                 </div>
                 <div className="mt-14 w-full h-auto lg:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -23,7 +23,7 @@ const Achievements = () => {
             </div>
             <div className="w-full lg:w-1/2">
                 <div className="py-12 font-titleFont">
-                    <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+                    <p className="text-sm text-designColor tracking-[4px]">2020 - present</p>
                     <h2 className="text-4xl font-bold">Job Experience</h2>
                 </div>
                 <div className="mt-14 w-full h-auto lg:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
